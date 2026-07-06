@@ -1,0 +1,16 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs and local environment
+*.log
+.env
+.env.*
+
+# Archives and large coursework exports
+*.zip
+*.mp4
+*.pptx
