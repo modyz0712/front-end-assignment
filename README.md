@@ -1,49 +1,146 @@
+<div align="center">
+
 # Front-End Assignment - techHive Store
 
-Responsive e-commerce website for the UCCD2323 Front-End Web Development group assignment. This public portfolio copy is based on the original group repository at `techhive1957-code/front-end-assignment` and the submitted Group 44 coursework package.
+Responsive e-commerce website for gaming and tech products, copied from the TechHive group source and documented with submitted Group 44 evidence.
 
-Live site from the group submission:
+![HTML](https://img.shields.io/badge/HTML-Static%20Pages-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-Responsive%20Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Store%20Interactions-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-UI%20Components-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-111827?style=for-the-badge)
 
+</div>
+
+---
+
+## Table of Contents
+
+- [About](#about)
+- [Live Site](#live-site)
+- [Problem Scope](#problem-scope)
+- [Features](#features)
+- [Pages](#pages)
+- [My Contribution](#my-contribution)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [Academic Context](#academic-context)
+- [License](#license)
+
+## About
+
+This repository is the public portfolio copy of the UCCD2323 Front-End Web Development Group 44 assignment. The project is **techHive Store**, a responsive static e-commerce website for PC peripherals and gaming products.
+
+The source is copied from the original group repository:
+
+```text
+https://github.com/techhive1957-code/front-end-assignment
+```
+
+The local coursework submission package was used as evidence for the project title, group details, website URL, and contribution breakdown.
+
+## Live Site
+
+Submitted website URL:
+
+```text
 https://techhive1957-code.github.io/front-end-assignment/index.html
+```
+
+## Problem Scope
+
+techHive Store is designed around a realistic e-commerce flow: visitors should be able to browse products, compare close alternatives, view product details, manage a cart, and proceed through checkout with clear RM pricing.
+
+The site also supports modern shopping helpers such as recently viewed products, comparison storage, product filtering, and a guide page that remembers user preferences.
 
 ## Features
 
-- Multi-page static storefront for gaming and tech products.
-- Product listing, best-seller, product detail, comparison, cart, checkout, login, and signup pages.
-- Informational pages for guide, contact, and about content.
-- Product data stored in `products.json`.
-- Responsive layout using HTML, CSS, JavaScript, and Bootstrap assets.
+- Responsive multi-page storefront.
+- Product listing and bestseller pages.
+- Product detail page with specifications, fit/grip guidance, recommendations, and recently viewed products.
+- Product comparison with a maximum of three selected items.
+- Cart and checkout flow with local client-side state.
+- Login and signup pages.
+- Guide, about, and contact pages.
+- Product catalog stored in `products.json`.
+- Local storage, session storage, and cookies for interaction state such as cart, recently viewed items, compare list, theme, and guide preferences.
 
-## Repository Structure
+## Pages
 
-- `index.html` - home page.
-- `shop.html`, `bestseller.html`, `product-detail.html`, `compare.html` - product browsing flows.
-- `cart.html`, `checkout.html` - purchase flow pages.
-- `login.html`, `signup.html` - account entry pages.
-- `guide.html`, `contact.html`, `about.html` - supporting site pages.
-- `css/`, `js/`, `img/` - styles, scripts, and visual assets.
-- `docs/project-evidence.md` - summary extracted from the submitted coursework package.
+| Page | Purpose |
+|---|---|
+| `index.html` | Homepage and main navigation entry |
+| `shop.html` | Product browsing, filters, and product cards |
+| `bestseller.html` | Best-selling product section |
+| `product-detail.html` | Product images, specs, fit guide, recommendations |
+| `compare.html` | Side-by-side comparison for selected products |
+| `cart.html` | Cart review and item quantity flow |
+| `checkout.html` | Order summary and payment form |
+| `login.html` | Login page |
+| `signup.html` | Registration page |
+| `guide.html` | Shopping guide and preference helper |
+| `about.html` | Store background page |
+| `contact.html` | Contact and support page |
 
 ## My Contribution
 
-According to the submitted report, Koo Ian Hong contributed:
+The submitted report identifies **Koo Ian Hong** as contributing:
 
 - `product-detail.html`
 - `compare.html`
 - `guide.html`
 
-## Tech Stack
+The evidence summary is stored in [docs/project-evidence.md](docs/project-evidence.md).
 
-HTML, CSS, JavaScript, Bootstrap, JSON.
+## Repository Structure
 
-## Run Locally
+```text
+front-end-assignment/
+|-- css/                 Stylesheets and Bootstrap assets
+|-- img/                 Product and layout images
+|-- js/                  Cart, product, compare, and shop logic
+|-- docs/
+|   `-- project-evidence.md
+|-- products.json        Product catalog data
+|-- index.html
+|-- shop.html
+|-- product-detail.html
+|-- compare.html
+|-- cart.html
+|-- checkout.html
+|-- guide.html
+|-- LICENSE
+`-- README.md
+```
 
-Open `index.html` directly in a browser, or serve the folder with a simple static server:
+## Getting Started
+
+Open directly:
+
+```text
+index.html
+```
+
+Recommended local server:
 
 ```bash
 python -m http.server 8080
 ```
 
-## Attribution
+Then open:
 
-This was completed as a university group coursework project by Group 44 for UCCD2323 Front-End Web Development. It is published publicly with group-project attribution and MIT licensing as portfolio evidence.
+```text
+http://127.0.0.1:8080
+```
+
+## Academic Context
+
+- Course: UCCD2323 Front-End Web Development
+- Academic session: 2025/06
+- Group: Group 44
+- Website title: techHive Store
+- Group members: Chin Zheng Quan, Koo Ian Hong, Lai Keen Seng, Lim Yi Xiang
+
+## License
+
+This repository is released under the MIT License. See [LICENSE](LICENSE) for details.
