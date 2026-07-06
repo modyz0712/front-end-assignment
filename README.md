@@ -23,8 +23,6 @@ Responsive e-commerce website for gaming and tech products, copied from the Tech
 - [Pages](#pages)
 - [My Contribution](#my-contribution)
 - [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Academic Context](#academic-context)
 - [License](#license)
 
 ## About
