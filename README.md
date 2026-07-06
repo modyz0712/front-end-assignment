@@ -113,34 +113,6 @@ front-end-assignment/
 `-- README.md
 ```
 
-## Getting Started
-
-Open directly:
-
-```text
-index.html
-```
-
-Recommended local server:
-
-```bash
-python -m http.server 8080
-```
-
-Then open:
-
-```text
-http://127.0.0.1:8080
-```
-
-## Academic Context
-
-- Course: UCCD2323 Front-End Web Development
-- Academic session: 2025/06
-- Group: Group 44
-- Website title: techHive Store
-- Group members: Chin Zheng Quan, Koo Ian Hong, Lai Keen Seng, Lim Yi Xiang
-
 ## License
 
 This repository is released under the MIT License. See [LICENSE](LICENSE) for details.
